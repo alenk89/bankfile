@@ -29,7 +29,8 @@ function init() {
 </div>
 <br>
 <footer class="footer mt-auto py-3 text-muted ${UI.footer_style_class}" style="${UI.fixed_footer ?'position: fixed; ': ''}left: 0; bottom: 0; width: 100%; color: white; z-index: 9999;${UI.hide_footer ? ' display:none;': ' display:block;'}"> 
-	<div class="container" style="width: auto; padding: 0 10px;"><p>© ${UI.copyright_year} - <a href=" ${UI.company_link}" target="_blank"> ${UI.company_name}</a>, All Rights Reserved.</p> </div> 
+	<div class="container" style="width: auto; padding: 0 10px;text-align: center;">
+	<p>© ${UI.copyright_year} - <a href=" ${UI.company_link}" target="_blank" style="text-decoration: none;" > ${UI.company_name}</a>, All Rights Reserved.</p> </div> 
 	</footer>
   `;
 	$('body').html(html);
