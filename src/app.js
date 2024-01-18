@@ -360,7 +360,7 @@ function list(path, id = '', fallback = false) {
 				break;
 			}
 
-			containerContent += `<li class="breadcrumb-item"><a href="${currentPath}">${displayedPathPart}</a></li>`;
+			containerContent += `<li class="breadcrumb-item"><a href="${currentPath}" style=" text-decoration: none; ">${displayedPathPart}</a></li>`;
 		}
 	}
 
